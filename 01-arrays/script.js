@@ -43,6 +43,8 @@ for(let i = 0; i < teachers.length; i++) {
 const isFabioPresent = isFpres;
 console.log(isFabioPresent);
 
+/*Oppure con: teachers.includes("Fabio")*/
+
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
 let index=-1;/*Inizializzata a -1 cosicchè se l'elemento cercato non appartiene all'array, restituisco -1 per indicare che l'elemento non appartiene all'array, altrimenti restituisco l'indice di posizione dell'elemento*/
@@ -53,6 +55,8 @@ for(let i = 0; i < teachers.length; i++) {
 const lewisIndex = index;
 console.log(lewisIndex);
 
+/*Oppure con IndexOf*/
+
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
 let string="";
@@ -62,6 +66,8 @@ for(let i = 0; i < teachers.length-1; i++){
 string = string + teachers[teachers.length-1];
 const teachersString = string;
 console.log(teachersString);
+
+/*Oppure con teachers.join*/
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
